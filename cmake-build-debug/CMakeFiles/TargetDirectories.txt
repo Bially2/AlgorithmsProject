@@ -1,0 +1,3 @@
+C:/Users/s-cze/OneDrive/Desktop/sem4/untitled1/cmake-build-debug/CMakeFiles/untitled1.dir
+C:/Users/s-cze/OneDrive/Desktop/sem4/untitled1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/s-cze/OneDrive/Desktop/sem4/untitled1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
