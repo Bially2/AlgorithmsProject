@@ -1,16 +1,32 @@
 //
-// Created by s-cze on 07.03.2025.
+// Created by szyiw on 27.05.2024.
 //
 
-#ifndef UNTITLED1_STACK_H
-#define UNTITLED1_STACK_H
+#ifndef AISDPROJ3_STACK_H
+#define AISDPROJ3_STACK_H
 
 
+class Stack {
+private:
+    struct Node {
+        int value;
+        Node *next;
+    };
+    Node *head;
+    int length;
 
-class stack {
+    static Node* createNode(int value);
+public:
+    Stack();
+    ~Stack();
+    void push(int value);
+    int pop();
+    int peek();
+    [[nodiscard]] bool isEmpty() const;
 
+    [[maybe_unused]] [[nodiscard]] int size() const;
+    void clear();
 };
 
 
-
-#endif //UNTITLED1_STACK_H
+#endif //AISDPROJ3_STACK_H

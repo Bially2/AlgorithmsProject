@@ -1,16 +1,21 @@
-//
-// Created by s-cze on 07.03.2025.
-//
+#ifndef QUEUE_H
+#define QUEUE_H
+class Queue {
+private:
+    int* data;
+    int front;
+    int rear;
+    int capacity;
+    int count;
 
-#ifndef UNTITLED1_QUEUE_H
-#define UNTITLED1_QUEUE_H
+public:
+    explicit Queue(int size);
+    ~Queue();
 
-
-
-class queue {
-
+    void enqueue(int value);
+    int dequeue();
+    bool isEmpty() const;
+    void clear();
 };
 
-
-
-#endif //UNTITLED1_QUEUE_H
+#endif // QUEUE_H
