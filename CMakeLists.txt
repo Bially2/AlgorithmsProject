@@ -4,7 +4,6 @@ project(untitled1)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(untitled1 main.cpp
-        stack.cpp
-        queue.h
-        queue.cpp
-        funkcje.cpp)
+        board.cpp
+        board.h
+)

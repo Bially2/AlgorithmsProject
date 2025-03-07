@@ -55,20 +55,8 @@ build CMakeFiles/untitled1.dir/main.cpp.obj: CXX_COMPILER__untitled1_unscanned_D
   OBJECT_DIR = CMakeFiles\untitled1.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
 
-build CMakeFiles/untitled1.dir/stack.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/s-cze/OneDrive/Desktop/sem4/untitled1/stack.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\stack.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
-
-build CMakeFiles/untitled1.dir/queue.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/s-cze/OneDrive/Desktop/sem4/untitled1/queue.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\queue.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
-
-build CMakeFiles/untitled1.dir/funkcje.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/s-cze/OneDrive/Desktop/sem4/untitled1/funkcje.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\funkcje.cpp.obj.d
+build CMakeFiles/untitled1.dir/board.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/s-cze/OneDrive/Desktop/sem4/untitled1/board.cpp || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\board.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled1.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
@@ -81,7 +69,7 @@ build CMakeFiles/untitled1.dir/funkcje.cpp.obj: CXX_COMPILER__untitled1_unscanne
 #############################################
 # Link the executable untitled1.exe
 
-build untitled1.exe: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/main.cpp.obj CMakeFiles/untitled1.dir/stack.cpp.obj CMakeFiles/untitled1.dir/queue.cpp.obj CMakeFiles/untitled1.dir/funkcje.cpp.obj
+build untitled1.exe: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/main.cpp.obj CMakeFiles/untitled1.dir/board.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled1.dir
